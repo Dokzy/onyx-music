@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#164b91"><title>ONYX MUSIC TV</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topline">★ ONYX NETWORK ★ &nbsp; NON-STOP MUSIC TELEVISION &nbsp; EST. 2005 ★</div>
+<header><div class="brand"><div class="orb">O</div><div><h1>ONYX<span>MUSIC</span></h1><small>YOUR PERSONAL MUSIC TELEVISION</small></div></div><div class="status"><i></i> ON AIR <span id="clock">00:00:00</span></div></header>
+<nav><span class="selected">♫ ONYX MUSIC</span><span>24/7 MUSIC CHANNEL</span><span class="right">NOW PLAYING</span></nav>
+<main>
+<div class="ticker"><b>WELCOME TO ONYX MUSIC!</b> &nbsp; • &nbsp; NON-STOP MUSIC • YOUR PLAYLIST • YOUR STATION</div>
+<div class="columns">
+<section>
+<div class="panel">
+<div class="bar"><b>♫ ONYX MUSIC — LIVE PLAYER</b><span class="live"><i></i> LIVE</span></div>
+<div class="visual">
+<div class="disc"><div class="disc-center">O</div></div>
+<div class="visual-text"><strong>ONYX<span>MUSIC</span></strong><small>THE SOUND OF YOUR INTERNET</small><div class="spectrum">▂ ▅ ▃ ▇ ▄ ▆ ▂ ▅ ▇ ▃ ▆ ▄ ▂ ▇ ▅ ▃ ▆</div></div>
+</div>
+<div class="track"><div><small>CURRENTLY PLAYING</small><strong id="trackName">Válassz zenéket a lejátszási listához!</strong></div><span id="trackTime">ONYX MUSIC</span></div>
+<audio id="audio" controls></audio>
+<div class="controls">
+<label class="btn primary">＋ ZENÉK BETÖLTÉSE<input id="files" type="file" accept="audio/*" multiple hidden></label>
+<button class="btn" id="prev">|◀ ELŐZŐ</button><button class="btn" id="next">KÖVETKEZŐ ▶|</button>
+<button class="btn" id="shuffle">🔀 KEVERÉS: KI</button><button class="btn" id="loop">🔁 ISMÉTLÉS: BE</button>
+</div>
+<div class="url"><input id="stream" type="url" placeholder="Online zenei stream URL (MP3 / AAC / HLS)"><button class="btn primary" id="streamBtn">STREAM INDÍTÁSA</button></div>
+<p class="hint">A saját zenéid nem kerülnek feltöltésre. A Google TV-n a távirányítóval is kiválaszthatod a gombokat.</p>
+</div>
+<div class="panel"><div class="bar"><b>♫ SAJÁT ZENEI GYŰJTEMÉNY</b><span id="count">0 TRACK</span></div><div id="playlist" class="playlist"><p class="empty">Még nincs zene. Tölts be MP3 vagy más támogatott hangfájlokat!</p></div><div class="list-actions"><button class="btn" id="clear">LISTA TÖRLÉSE</button><button class="btn primary" id="playAll">LEJÁTSZÁS</button></div></div>
+</section>
+<aside>
+<div class="panel"><div class="bar"><b>📻 ADÁSBAN</b></div><div class="onair"><div class="equalizer">▂ ▅ ▃ ▇ ▄ ▆ ▂ ▅ ▇</div><h2>ONYX MUSIC</h2><p>NON-STOP MUSIC</p><b class="green">● ONLINE PLAYER</b></div></div>
+<div class="panel"><div class="bar"><b>♫ CSATORNAINFÓ</b></div><div class="info"><p><b>Csatorna:</b> ONYX MUSIC</p><p><b>Műsortípus:</b> Zenei adás</p><p><b>Lejátszás:</b> Folyamatos</p><p><b>Stílus:</b> Saját zenei válogatás</p></div></div>
+<div class="panel"><div class="bar"><b>★ ONYX NETWORK</b></div><p class="about">Egy saját internetes zenei csatorna. Régi internetes hangulat, saját zenék, egyetlen adó.</p></div>
+</aside>
+</div>
+</main>
+<footer>© 2026 ONYX MUSIC TV &nbsp; | &nbsp; ALWAYS MUSIC, ALWAYS ONYX</footer>
+<script src="app.js"></script>
+</body></html>
